@@ -39,9 +39,9 @@ if __name__ == "__main__":
 
     try:
         # input & output file details
-        input_file_path = "./input.txt"
-        output_file_path = "./output.csv"
-        spec_file_path = "./spec.json"
+        input_file_path = "./files/input.txt"
+        output_file_path = "./files/output.csv"
+        spec_file_path = "./files/spec.json"
 
         spec = None
         output_rows = None

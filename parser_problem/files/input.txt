@@ -1,0 +1,5 @@
+f1   f2          f3 f4f5           f6     f7        f8           f9                  f10          
+123  Sample text 1  A More sample  123456 1234567890Even more texSome longer text    End          
+4567 Another text2  B Sample again 76543210987654321Yet more textAnother long text   Finish       
+89   Short       3  C Text         765    098765    Another text Longer text again   Final        
+0    Tiny        4  D Test         0      7654321   Text data    This is a longer texComplete     
