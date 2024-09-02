@@ -1,7 +1,6 @@
 import pandas as pd
 import faker
 
-
 fake = faker.Faker()
 
 # Number of rows to generate

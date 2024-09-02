@@ -6,6 +6,10 @@ import hashlib
 chunk_size = 10000
 input_file = "input.csv"
 
+df_chunks = []
+iteration = 0
+header = True
+
 # Function to anonymize a value using SHA-256 hashing
 def anonymize_value(value):
     return hashlib.sha256(value.encode('utf-8')).hexdigest()
@@ -15,11 +19,6 @@ def randomize_value(value):
     value_list = list(value)  
     random.shuffle(value_list)
     return ''.join(value_list)
-
-
-df_chunks = []
-iteration = 0
-header = True
 
 # Process the CSV file in chunks
 for df_chunk in pd.read_csv(input_file, chunksize=chunk_size):        
