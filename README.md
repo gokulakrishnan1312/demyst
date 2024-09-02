@@ -11,5 +11,5 @@ pb1.py
 folder: data_processing_problem
 
 files: 
-file.py - To generate input file.
+file.py - To generate input file
 pb2.py 
